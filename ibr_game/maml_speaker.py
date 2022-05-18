@@ -18,7 +18,7 @@ from models import Listener, AggregatedListener
 from few_shot_learning_system import MAMLFewShotClassifier
 from referential_game import get_caption_candidates, load_model
 from utils import truncate_dicts, nearest_images
-from lang_id import language_identification
+# from lang_id import language_identification
 
 # torch.backends.cudnn.enabled = False
 
